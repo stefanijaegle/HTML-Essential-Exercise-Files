@@ -1,47 +1,43 @@
 <!DOCTYPE HTML>
 <html lang="en">
 <head>
-<meta charset="utf-8">
-<title>Next Steps</title>
-<link href="_css/styles.css" rel="stylesheet" type="text/css">
+	<meta charset="utf-8">
+	<title>Introduction to HTML</title>
+	<link href="_css/styles.css" rel="stylesheet" type="text/css">
 </head>
 <body>
-<h1>HTML Essential Training</h1>
-<h2>Next Steps</h2>
-<ul>
-  <li><a href="intro.htm" title="Introduction to HTML">Introduction to HTML</a></li>
-  <li><a href="syntax.htm" title="HTML syntax">HTML syntax</a></li>
-  <li><a href="links.htm" title="Creating links">Creating links</a></li>
-  <li><a href="reference.htm" title="HTML Reference">HTML reference</a></li>
-  <li><a href="next.htm" title="Next steps">Next steps</a></li>
-</ul>
-<p>Once you master the basics of authoring HTML, you&rsquo;ll need focus on what your next steps will be. If you&rsquo;re an aspiring web designer, you&rsquo;ll need to dive deeper into HTML, CSS, and JavaScript. If you&rsquo;re maintaining a corporate or personal site through a CMS, you&rsquo;ll need to focus on how the CMS works, and the most efficient ways to edit and maintain content. On this page I&rsquo;ll give you some basic advice on how to approach learning web design and point you towards additional resources that can help you along the way.</p>
-<h3>Learning Web Design</h3>
-<p>&ldquo;Web design&rdquo; is a pretty open-ended term. Often people who are new to web design feel overwhelmed at everything there is to learn. That&rsquo;s understandable, but just remember that it&rsquo;s like any other discipline; with proper dedication and focus you&rsquo;ll progress quickly. Here&rsquo;s my favorite advice to new web designers on learning web design:</p>
-<p><b>Learn how the web works.</b><br>
-  I&rsquo;m always amazed at how many web designers focus on learning &ldquo;just what they need to know&rdquo; and ignore how the web actually works. Without understanding how web servers, protocols, browsers, and other related web technology works, you&rsquo;ll never really understand the context behind why you do the things you do, and what makes one practice better than another.</p>
-<p><b>Determine an area of focus, and start there.</b><br>
-  There are a lot of areas of web design that you could specialize in, so I&rsquo;d recommend learning as much about them as you can, to determine which areas interest you. Then, spend as much time learning about your specific area of focus as possible. Once you achieve a level of proficiency, begin to branch out into other areas as well. </p>
-<p><b>Never stop learning</b><br>
-  The web is constantly evolving. Even if you become the absolute best there is in a specific field, chances are new techniques and approaches will come along within the year that will make your current skill set less desirable. Understand that being a good web designer means embracing the changing nature of the web.</p>
-<p><b>Break things!</b><br>
-  There is no better teacher than experience. Build and experiment constantly. Ask yourself, <i>&ldquo;what would happen if I?...&rdquo;</i> or <i>&ldquo;wonder if I could build?...&rdquo;</i> and then go out and build it. If you&rsquo;re like me, you&rsquo;ll fail a good bit of the time, but the process of trying things and breaking them will make you that much better. <b>Always challenge yourself.</b></p>
-<h3>Web Design Resources</h3>
-<p><b>lynda.com online training library </b></p>
-<p><b>HTML related titles</b></p>
-<p><b>Web Design related titles</b></p>
-<p><b>HTML specifications</b> </p>
-<p>Although their format can be a bit hard to read initially, once you&rsquo;re familiar with them there is no better resource for learning HTML and staying current with it than reading the actual W3C specifications.</p>
-<p><b>HTML 4.0</b></p>
-<p><b>XHTML 1.0</b></p>
-<p><b>WHATWG HTML5</b></p>
-<p><b>W3C HTML5</b></p>
-<p><b>W3C Markup Validation Service </b></p>
-<p>Great for testing code and making sure you&rsquo;re writing valid HTML syntax.</p>
-<p><b>Mozilla Developer Network </b></p>
-<p>One of the best online resources for web designers and developers. Great collection of articles, tutorials, and references.</p>
-<p><b>HTML5 Rocks </b></p>
-<p>Once you&rsquo;ve got the basics down, check out sites like HTML5 Rocks. This site feature articles, tutorials, and other resources that help you keep up with the evolving web. </p>
-<p>&copy; lynda.com | follow me and lynda.com on Twitter! @jameswillweb @lyndadotcom</p>
+	<h1>HTML Essential Training</h1>
+	<h2>Structuring Pages</h2>
+	<nav>
+		<ul>
+		  <li><a href="intro.htm" title="Introduction to HTML">Introduction to HTML</a></li>
+		  <li><a href="syntax.htm" title="HTML syntax">HTML syntax</a></li>
+		  <li><a href="structure.htm" title="Structuring pages">Structuring pages</a></li>
+		  <li><a href="links.htm" title="Creating links">Creating links</a></li>
+		  <li><a href="reference.htm" title="HTML Reference">HTML reference</a></li>
+		  <li><a href="next.htm" title="Next steps">Next steps</a></li>
+		</ul>
+	</nav>
+
+	<article>
+		<h3>Conveying meaning through structure</h3> 
+		<p>Creating properly structured pages is the foundation of any good website. A solid semantic structure allows you to convey meaning and properly represent content types through nothing more than the page's markup. This, in turn, makes your content more accessible, easier to index and search, and makes it easier to repurpose. Remember that there are a lot of different devices, robots, and other user agents that will be reading your code. <em>Without a consistent, semantic structure your site will be less effective.</em> </p>
+		<h3>Sectioning elements </h3>
+		<p>One way to add meaning to your content is to organize them into sections that convey meaning and structure. For example it's pretty standard to contain introductory information within a section, page navigation within its own area, the page's main content in its own region, and related information within a sidebar. HTML contains numerous elements that are designed to assist in the logical structuring and semantics of page content. </p>
+		<p>In previous versions of HTML creating new sections of content was done almost exclusively through the use of <b>heading</b> tags, with <b>divs</b> being used to group areas of content together. <b>Class</b> or <b>ID</b> attributes would allow designers to attach more semantic meaning to the groups, although this meant little to most user agents. In HTML5 new sectioning and semantic elements were introduced to help represent commonly used sections and create more consistent page structures. Tags like the <b>aside</b>, <b>article</b>, <b>footer</b>, <b>header</b>, <b>main</b>, <b>nav</b>, and <b>section</b> allow authors to identify common page regions and convey more semantic meaning. </p>
+		<p>Although some of these elements are very specific, in many cases which element you'll use and how you'll structure them is very much a judgment call. Make sure, however, that your finished structure represents the desired document outline. </p>
+		<h3>Document outlines</h3>
+		<p>One of the fundamental concepts of HTML is that its documents can be represented by a document outline that summarizes the content of the page. Imagine a page being represented by a table of contents and you'll have a good idea of what one of these outlines might look like. These outlines assist in tasks such as quickly searching documents and making content easier to navigate for assistive devices. </p>
+		<p>Prior to HTML5, document outlines were generated entirely through the use of headings. An H1 at the top of the page would serve to identify the page content, and subsequent headings would create sections and subsections inside of it. This meant that having a strategy for when to use certain headings was critical for maintaining consistent document structure. In HTML5 a new outline algorithm was introduced that added the new sectioning elements to the heading elements and created a more sophisticated outlining model. Although not currently implemented by user agents it is still recommended that authors familiarize themselves with it so that they're using the new sectioning and semantic tags properly. </p>
+		<p>It is still considered to be a best practice to use heading tags to establish the document outline. Mozilla has a fantastic article on sections and outlines in HTML documents that I strongly recommend reading.</p>
+		W3C Warning
+		<p>At the time of the authoring of this course, the W3C had posted this warning regarding the HTML5 outline algorithm:</p>
+		<blockquote>There are currently no known implementations of the outline algorithm in graphical browsers or assistive technology user agents, although the algorithm is implemented in other software such as conformance checkers. Therefore the outline algorithm cannot be relied upon to convey document structure to users. Authors are advised to use heading rank (h1-h6) to convey document structure.</blockquote>
+		WAI-ARIA Roles
+		<p>Carefully structuring an HTML page is the first step into ensuring that the content is accessible to all users. You should also use WAI-ARIA role attributes where appropriate to increase accessibility and improve semantics. WAI-ARIA is short for the Web Accessibility Initiative's Accessible Rich Internet Application specification. The roles attribute attempts to identify content and its capabilities by assigning it to a predefined role. This helps assistive devices understand what the content is, how it relates to other content, and how the content can be interacted with. The W3C has a fantastic resource on how WAI-ARIA works and how it should be used with HTML.</p>
+	</article>
+	<footer>
+		<p>&copy; lynda.com | follow me and lynda.com on Twitter! @jameswillweb @lyndadotcom</p>
+	</footer>
 </body>
 </html>

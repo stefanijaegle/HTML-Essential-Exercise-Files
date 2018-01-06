@@ -4,6 +4,7 @@ In this challenge, you’ll work on the sample HTML Essential Training reference
 			a.	Applies to: all pages
 			b.	Using document-relative links, enhance the list at the top of the document so that it links to the appropriate pages in the reference site. Be sure to add meaningful descriptions to each link.
 
+
 2.	Link to external sites
 			a.	Applies to: links.htm
 			b.	In the footer, locate the first reference to lynda.com
